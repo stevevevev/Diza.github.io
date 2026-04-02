@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Off-Campus Journey
+title: On-Campus Journey
 ---
-## City Central National High School Deployment
+## Cebu Normal University Integration
 [Insert text and media here]
