@@ -1,2 +1,11 @@
+---
+layout: default
+---
 # Professional Dossier
-Documenting my off-campus and on-campus teaching deployment.
+
+## Directory
+* [Introduction & Teaching Philosophy](introduction.html)
+* [CNU VMGO](vmgo.html)
+* [Off-Campus Journey](off-campus.html)
+* [On-Campus Journey](on-campus.html)
+* [Appendix](appendix.html)
