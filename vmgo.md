@@ -3,6 +3,17 @@ layout: default
 title: CNU VMGO
 ---
 ## Cebu Normal University
+Osmeña Boulevard, Cebu City Philippines 6000
+
+Cebu Normal University (CNU) is a prestigious state university in Cebu City, Philippines, known for its excellence in education and community service, with a rich history dating back to 1902.
+
+
+It was established in 1902 as a provincial normal school, initially serving as a branch of the Philippine Normal School. It became an independent institution in 1924, was designated a chartered college in 1976, and achieved university status in 1998. CNU is one of the oldest educational institutions in Cebu, with a significant role in training teachers and other professionals. 
+
+
+CNU offers a wide range of academic programs, particularly excelling in teacher education and nursing. It has been recognized by the Commission on Higher Education (CHED) as a Center of Excellence in these fields. The university aims to develop competent and values-driven individuals through quality instruction, relevant research, and responsive extension programs. 
+
+
 ### Vision
 
 By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proofed SMART (GREAT SMART CAMPUS)
