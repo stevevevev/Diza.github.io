@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    body { display: flex; margin: 0; font-family: Arial, sans-serif; }
+    .sidebar { width: 250px; height: 100vh; background: #333; color: white; padding: 20px; position: fixed; }
+    .sidebar a { color: white; text-decoration: none; display: block; margin-bottom: 10px; }
+    .content { margin-left: 290px; padding: 40px; flex-grow: 1; max-width: 800px; }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h3>Dossier Directory</h3>
+    <a href="/">Home</a>
+    <a href="/introduction.html">Introduction</a>
+    <a href="/vmgo.html">CNU VMGO</a>
+    <a href="/off-campus.html">Off-Campus Journey</a>
+    <a href="/on-campus.html">On-Campus Journey</a>
+    <a href="/appendix.html">Appendix</a>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>
