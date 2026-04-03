@@ -3,15 +3,15 @@ layout: default
 title: CNU VMGO
 ---
 ## Cebu Normal University
-Vision
+# Vision
 
 By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proofed SMART (GREAT SMART CAMPUS)
 
-Mission
+# Mission
 
 “Developing graduates equipped with world-class competences and imbued with positive values for them to be future-proof ready and become great leaders, professionals and stewards in their chosen vocation and of the society amidst destructive, volatile, uncertain, complex, ambiguous and divergent (DVUCAD) conditions”.
 
-DEVELOPMENT GOAL PHILOSOPHY
+# DEVELOPMENT GOAL PHILOSOPHY
 
 G – Good governance and administrative services agile to the ever-changing needs and expectations of the academic community and service areas as well as the development trends in the corporate and regulatory sectors.
 
