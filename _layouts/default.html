@@ -16,7 +16,7 @@
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/introduction.html' | relative_url }}">Introduction</a>
     <a href="{{ '/vmgo.html' | relative_url }}">CNU VMGO</a>
-    <details>
+    <details {% if page.url == '/off-campus.html' or page.url == '/first-day.html' or page.url == '/first-class.html' or page.url == '/interesting-events.html' or page.url == '/off-campus-appendix.html' %}open{% endif %}>
       <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Off-Campus Journey</summary>
       <div style="padding-left: 15px;">
         <a href="{{ '/off-campus.html' | relative_url }}">City Central NHS (Main)</a>
