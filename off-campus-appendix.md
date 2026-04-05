@@ -15,4 +15,4 @@ Boyle's and Charle's Law
 </object>
 
 <p> Powerpoint for the two lessons: 
-<a href= "https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit"> Click Here </p>
+<a href= "https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit"> Click Here
