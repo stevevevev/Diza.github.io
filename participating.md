@@ -2,7 +2,7 @@
 layout: default
 title: Participating Schools
 ---
-<img src="assets/images/CNU-logo.png" alt="CNU ILS Logo" width="150">
+<img src="assets/images/CNU-Logo.png" alt="CNU ILS Logo" width="150">
 # Cebu Normal University - Integrated Laboratory School
 The Cebu Normal University - Integrated Laboratory School (CNU-ILS) is a highly competitive basic education institution in Cebu City, Philippines, that offers early childhood, elementary, and junior high school programs while serving as the primary training ground for the university's College of Teacher Education. Operating under the umbrella of CNU—a premier teacher-training university—the ILS functions as a real-world "laboratory" where university interns complete their practice teaching under the supervision of seasoned faculty, creating a dynamic and innovative learning environment for the students. Beyond its rigorous academics and strict admission standards, CNU-ILS is recognized for its pioneering multigrade teaching advocacy and active student life, successfully balancing the delivery of quality holistic education to young learners with its crucial mission of shaping the next generation of top-tier Filipino educators.
 
