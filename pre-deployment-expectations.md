@@ -9,3 +9,6 @@ During this time, we were assigned our teaching responsibilities, and our group 
 
 ## Expectations
 I didn’t really have much expectations for this period, however, I have heard rumors of the ILS students being bright, and that excited me, because I believe that my main teaching style fits well with already smart students. This made me excited because I was hoping that I could go a bit more in depth with the topics assigned to me. Rumors about our mentor being kind, and patient also made me expect a chill albeit productive period. I also expected myself to like the Grade 8 students more than the Grade 5 students because I thought that kids that young are a handful, and hard to handle.
+
+## Goals
+My main goal for this internship journey is to discover what kind of teacher I am, and to hone that identity to reach its potential. I wish to see how effectively I can apply the theory I know to real life, and assess myself to determine where my strenghts lie, and what my weaknesses are, so I can continue to grow and develop into a teacher worthy enough to bear the crest of CNU. 

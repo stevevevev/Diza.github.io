@@ -2,6 +2,9 @@
 layout: default
 title: Insights
 ---
+
+# Insights
+
 ## 1. Things I Learned About Myself
 Looking back at my time at CCNHS, the most surprising thing I learned about myself was my profound capacity to connect with my students. I initially thought that being a good teacher meant just delivering the content, but I realized that my love for teaching is deeply rooted in the relationships I build in the classroom. I also learned a crucial lesson about my own psychology: I discovered that I am highly susceptible to performance anxiety. When my mentor and other teachers observed my first class with Grade 10 - Cabahug, my fear of looking incompetent caused me to abandon my favored teaching strategy—the art of questioning—and default to a rushed, teacher-centered lecture.
 
