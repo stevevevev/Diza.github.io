@@ -13,11 +13,10 @@ title: Off-Campus Appendix
   <object data="{{ '/assets/LP/off-campus/Properties-of-Gases.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
     <p>Your browser lacks PDF support. <a href="{{ '/assets/LP/off-campus/Properties-of-Gases.pdf' | relative_url }}" download>Download the document here</a>.</p>
   </object>
+</details>
 
   <p> Learning Material (Properties of Gases): 
 <a href= "https://www.canva.com/design/DAG_PjlnbDQ/s_c-15xNDN2aQ-Sa9bBFkQ/edit"> Click Here
-
-</details>
 
 ## Boyle's and Charle's Law
 <details>
