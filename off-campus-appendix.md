@@ -14,3 +14,4 @@ Boyle's and Charle's Law
   <p>Your browser lacks PDF support. <a href="{{ '/assets/images/Lesson-plans/Boyle-Charles.pdf' | relative_url }}" download>Download the document here</a>.</p>
 </object>
 
+<p> Powerpoint for the two lessons: https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit </p>
