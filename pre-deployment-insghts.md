@@ -1,4 +1,4 @@
 ---
 layout: default
-title: Learnings
+title: Insights
 ---
