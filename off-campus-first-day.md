@@ -20,5 +20,28 @@ My morning classes ended at 12:30, and it was time for my lunch break… which I
 1:30 arrived, and my last class for the afternoon was ready for me. Grade 10 - Rago was definitely the class with the most number of exceptional students, and I thought then that it would be the section that I would be looking forward to the most (spoiler alert: I was wrong). 
 
 Finally, my classes ended at 2:15 P.M., and after a quick chat with my mentor, I was free to do my business, and go home at 3:00 P.M., which I did.
+
 My first day of getting to know my classes felt a little satisfying, and I would relive that day if I could. Writing this only makes me miss my students more.
 
+<div class="carousel" style="max-width: 600px; position: relative;">
+  <img class="carousel-slide" src="/assets/images/photo1.jpg" style="width: 100%;">
+  <img class="carousel-slide" src="/assets/images/photo2.jpg" style="width: 100%; display: none;">
+  <img class="carousel-slide" src="/assets/images/photo3.jpg" style="width: 100%; display: none;">
+  
+  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
+  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
+</div>
+
+<script>
+  let index = 1;
+  function shiftSlide(n) {
+    const slides = document.getElementsByClassName("carousel-slide");
+    index += n;
+    if (index > slides.length) { index = 1 }
+    if (index < 1) { index = slides.length }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[index - 1].style.display = "block";
+  }
+</script>

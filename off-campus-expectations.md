@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Thoughts and Expectations
+title: Expectations and Goals
 ---
-<!--
-Thoughts 
-Expectations
--->
+# Expectations
+
+Heading into my off-campus deployment at a public high school, my expectations were a stark contrast to my online experience at the Integrated Laboratory School. Anticipating the realities of the public education system, I braced myself for a significantly heavier teaching load and, consequently, a much more energy-taxing and stressful daily grind. Furthermore, I fully expected to encounter rowdier, louder classes compared to the controlled digital environment of the online classes in ILS. However, despite anticipating these exhausting challenges, I was genuinely excited because I knew the face-to-face setup would make the entire experience profoundly more meaningful. Escaping the confines of synchronous video calls meant I would finally have the opportunity to interact with my students in person, which I believed would allow me to form the deeper, more authentic bonds that are simply impossible to cultivate through a computer screen.
+
+# Goals
+
+Going into this off-campus deployment, my goals were heavily shaped by the realities I had just faced during my pre-deployment at the ILS. Since I was fully expecting the public high school setup to be more stressful, energy-taxing, and filled with rowdier classes, my main goal was to establish proper classroom routines right from the start. I wanted to apply the technicalities of lesson delivery that my ILS mentor emphasized, using those formalities as a framework to manage the expected chaos without making the classroom feel too rigid. I also made it a personal goal to leave my biases at the door. After my experience with the online Grade 5 and Grade 8 classes, I wanted to make sure I appreciated whatever form of participation my new students offered, rather than getting frustrated when things didn't go exactly how I envisioned. Most importantly, knowing how much heavier the workload would be, I wanted to make all that extra stress worth it. My ultimate goal was to take full advantage of the face-to-face setup to build the kind of deep, meaningful connections with my students that I just couldn’t form through a computer screen, and to finally push past my anxieties so I could truly enjoy the art of teaching them.
