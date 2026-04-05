@@ -10,7 +10,7 @@ The Cebu Normal University - Integrated Laboratory School (CNU-ILS) is a highly 
 <img src="assets/images/Sunny.png" alt="CNU ILS Logo" width="150">
 
 ### Mr. Sunny Fernandez
-is a Master Teacher, and a non-advisory faculty member in CNU-ILS who handles Gr-5 math, Gr-8 Values, and Gr-8 Science. He is a gentle, and kind mentor, who waits patiently for us, interns. He is the spring breeze after an arduous winter. Even before our turn for the internship, many of us in our bloc really wanted to be under his tutelage, so I am very thankful that I was one of the lucky few that has had the privilege to be one. His style of mentorship focused more on the technicalities in lesson design, development, and delivery, emphasizing the importance of structured classroom routines and proper pedagogical formalities, which are, admittedly, aspects that I am not strong with. 
+is a Master Teacher, and a non-advisory faculty member in CNU-ILS who handles Gr-5 math, Gr-8 Values, and Gr-8 Science. He is a gentle, and kind mentor, who waits patiently for us, interns. He is the spring breeze after an arduous winter. Even before our turn for the internship, many of us in our bloc really wanted to be under his tutelage, so I am very thankful that I was one of the lucky few that has had the privilege to be one. His style of mentorship focused more on the technicalities in lesson design, development, and delivery, emphasizing the importance of structured classroom routines and proper pedagogical formalities, which are, admittedly, aspects that I am not strong with. Under his guidance, I was able to manage a big weakness in my teaching skills.
 
 <img src="assets/images/CCNHS-logo.png" alt="CNU ILS Logo" width="150">
 
