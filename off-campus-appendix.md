@@ -10,8 +10,8 @@ title: Off-Campus Appendix
     <strong>View Document: [Properties of Gases]</strong>
   </summary>
   
-  <object data="{{ '/assets/documents/Properties-of-Gases.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
-    <p>Your browser lacks PDF support. <a href="{{ '/assets/documents/Properties-of-Gases.pdf' | relative_url }}" download>Download the document here</a>.</p>
+  <object data="{{ '/assets/LP/off-campus/Properties-of-Gases.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+    <p>Your browser lacks PDF support. <a href="{{ '/assets/LP/off-campus/Properties-of-Gases.pdf' | relative_url }}" download>Download the document here</a>.</p>
   </object>
 </details>
 
@@ -21,8 +21,8 @@ title: Off-Campus Appendix
     <strong>View Document: [Boyle's and Charle's Law]</strong>
   </summary>
   
-  <object data="{{ '/assets/documents/Boyle-Charles.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
-    <p>Your browser lacks PDF support. <a href="{{ '/assets/documents/Boyle-Charles.pdf' | relative_url }}" download>Download the document here</a>.</p>
+  <object data="{{ '/assets/LP/off-campus/Boyle-Charles.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+    <p>Your browser lacks PDF support. <a href="{{ '/assets/LP/off-campus/Boyle-Charles.pdf' | relative_url }}" download>Download the document here</a>.</p>
   </object>
 </details>
 
