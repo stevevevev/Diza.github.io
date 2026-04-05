@@ -2,6 +2,8 @@
 layout: default
 title: CNU VMGO
 ---
+<img src="assets/images/CNU-Logo.png" alt="CNU ILS Logo" width="150">
+
 ## Cebu Normal University
 Osmeña Boulevard, Cebu City Philippines 6000
 
@@ -34,3 +36,8 @@ By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proo
 
 <b>T</b> – Technology inclusive through SMART Campus modality in the delivery of administrative services and the fourfold functions of the University namely, instruction, research, extension and production.
 
+<img src="assets/images/CTE-logo.png" alt="CNU ILS Logo" width="150">
+
+## College of Teacher Education
+
+The College of Teacher Education envisions its graduates from the different degree programs to demonstrate technological, pedagogical content knowledge (TCPCK) imbued with the essential skills that prepare them for excellence in the delivery of relevant, meaningful and facilitative instruction in the basic education. Moreover, the college aspires its graduates to be leaders in promoting education for sustainable development addressing emerging socio-cultural, economic, and environmental concerns.
