@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set-up and Expectations
+title: Before Teaching
 ---
 ## Orientation
 We were told that we would first spend 3 weeks teaching online classes in CNU-ILS before our actual deployment starts. These 3 weeks would serve as an adjustment period for those who will first have their on-campus shift, and as preparatory period for those who have their off-campus shift, in this case, me and my co-interns.
