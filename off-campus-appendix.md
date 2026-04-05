@@ -15,6 +15,9 @@ title: Off-Campus Appendix
   </object>
 </details>
 
+<p> Learning Material (Properties of Gases): 
+<a href= "https://www.canva.com/design/DAG_PjlnbDQ/s_c-15xNDN2aQ-Sa9bBFkQ/edit"> Click Here
+
 ## Boyle's and Charle's Law
 <details>
   <summary style="cursor: pointer; padding: 10px; background-color: #444; color: white; border-radius: 4px; margin-bottom: 10px;">
@@ -26,5 +29,5 @@ title: Off-Campus Appendix
   </object>
 </details>
 
-<p> Powerpoint for the two lessons: 
+<p> Learning Material (Boyle's and Charle's Law): 
 <a href= "https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit"> Click Here
