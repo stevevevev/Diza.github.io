@@ -25,9 +25,9 @@ title: Off-Campus Appendix
   
   <object data="{{ '/assets/LP/off-campus/Boyle-Charles.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
     <p>Your browser lacks PDF support. <a href="{{ '/assets/LP/off-campus/Boyle-Charles.pdf' | relative_url }}" download>Download the document here</a>.</p>
-    <p> Learning Material (Boyle's and Charle's Law): 
-    <a href= "https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit"> Click Here </a></p>
   </object>
+    <p><strong>Learning Material (Boyle's and Charle's Law): </strong>
+    <a href= "https://www.canva.com/design/DAG_Um4lRvM/ty-iQ6Ah3vBEocEPLI01KA/edit"> Click Here </a></p>
 </details>
 
 
