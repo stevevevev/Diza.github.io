@@ -2,11 +2,13 @@
 layout: default
 title: Insights
 ---
-## 1. What I learned about myself
+# Insights
+
+### 1. What I learned about myself
 During this teaching period, the most significant thing I learned about myself was how heavily my motivation is tied to specific types of student validation (Weakness). Because my teaching style relies on deep, active engagement, I discovered that I become easily frustrated and demotivated when students don't participate in the exact vocal way I prefer. Conversely, I learned that my preconceived biases are often completely wrong. I went into this experience assuming (Threat to my own mindset) that I would prefer teaching the older Grade 8 students and that the Grade 5 kids would be a difficult handful. Instead, the exact opposite happened. I thrived on the eager, infectious energy of the younger students and felt drained by the older ones. However, through this, I also discovered a core Strength: my capacity for deep self-awareness. I was able to recognize my own biases in real-time and acknowledge that my frustration with the Grade 8 students was a "me" problem, not a "them" problem.
 
-## 2. Things I improved about myself
+### 2. Things I improved about myself
 The biggest improvement I made was in my adaptability and professional resilience (Strength maximizing an Opportunity). Teaching synchronously online poses a massive Threat to classroom energy, but working collaboratively with Teachers Euniece, Scott, and Genesis allowed me to successfully navigate those digital limitations with the Grade 5 class. More importantly, I significantly improved my internal mindset regarding what "participation" looks like. When faced with the quiet, chat-only engagement of the Grade 8 students, I didn't just give up. I pushed through my initial frustration and consciously forced myself to appreciate their comments. I successfully instilled a new, vital pedagogical philosophy in my mind: what I like as a teacher is not always what my students will want or be comfortable doing, and I have to respect their forms of expression.
 
-## 3. Things I still have to improve on
+### 3. Things I still have to improve on
 While I made great strides in shifting my mindset, I still need to improve how I manage my expectations going into new environments (Weakness). I allowed rumors about the students' brightness and my mentor's personality to paint a picture of a "chill" and deeply analytical experience before I even stepped into the digital classroom. Relying on hearsay sets me up for disappointment when reality doesn't perfectly align with the rumors. Furthermore, while I now intellectually recognize that typing in a chat box is a valid form of participation, I still have to improve my emotional response to it so it doesn't frustrate me in the moment. Finally, I need to work on developing new strategies to actively draw out verbal participation from quiet classes like the Grade 8s, rather than just passively wishing they would match my energy.
