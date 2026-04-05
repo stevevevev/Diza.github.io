@@ -27,7 +27,7 @@ Marythelle L. Geotoro is an undergraduate student at Cebu Normal University, cur
 ### Rossangellie Mae Goles
 <img src="assets/images/co-interns/Ross.jpg" alt="Ross" width="150">
 
-is a fourth-year student with a Bachelor of Secondary Education 
+Rossangellie Mae Goles is a fourth-year student with a Bachelor of Secondary Education 
 major in Science at Cebu Normal University-Main Campus. She completed her elementary education at Our Lady of 
 Mount Carmel Learning Center Inc. She finished her Junior High School in an STE Curriculum, 
 and Senior High School taking up General Academic Strand: STEM at Badian National High 
