@@ -16,7 +16,7 @@ title: Off-Campus Appendix
 </details>
 
 <p> Learning Material (Properties of Gases): 
-<a href= "https://www.canva.com/design/DAG_PjlnbDQ/s_c-15xNDN2aQ-Sa9bBFkQ/edit"> Click Here
+<a href= "https://www.canva.com/design/DAG_PjlnbDQ/s_c-15xNDN2aQ-Sa9bBFkQ/edit"> Click Here </a>.</p>
 
 ## Boyle's and Charle's Law
 <details>
