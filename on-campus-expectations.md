@@ -8,7 +8,7 @@ So, the last phase of my internship is finally here: my on-campus deployment bac
 
 Here is what I am expecting and what I hope to achieve during this final stretch.
 
-1. A Familiar Environment with the Same Online Hurdles: Even though I'm back on my home turf at ILS, I expect the online setup to still have its usual challenges—like screen fatigue and quiet virtual rooms. However, after my off-campus experience, I expect to handle these moments with a lot more patience and less panic.
+1. Even though I'm back on my home turf at ILS, I expect the online setup to still have its usual challenges—like screen fatigue and quiet virtual rooms. However, after my off-campus experience, I expect to handle these moments with a lot more patience and less panic.
 
 2. I expect that things won't always go exactly as planned. Tech issues happen, and sometimes a lesson takes longer than expected. I'm coming in expecting to adapt on the fly, just like I had to do in my previous deployment.
 
