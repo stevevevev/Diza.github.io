@@ -11,23 +11,46 @@
   </style>
 </head>
 <body>
-  <div class="sidebar">
-    <h3>Cebu Normal University</h3>
+<div class="sidebar">
+    <h3>Dossier Directory</h3>
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/introduction.html' | relative_url }}">Introduction</a>
-    <a href="{{ '/vmgo.html' | relative_url }}">CNU VMGO</a>
-    <details {% if page.url == '/off-campus.html' or page.url == '/first-day.html' or page.url == '/first-class.html' or page.url == '/the-journey.html' or page.url == '/off-campus-appendix.html' %}open{% endif %}>
-      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Off-Campus Journey</summary>
+    <a href="{{ '/cnu.html' | relative_url }}">CNU</a>
+    <a href="{{ '/co-interns.html' | relative_url }}">Co-Interns</a>
+
+    <details {% if page.url contains '/pre-deployment' %}open{% endif %}>
+      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Pre-deployment</summary>
       <div style="padding-left: 15px;">
-        <a href="{{ '/off-campus.html' | relative_url }}">City Central NHS</a>
-        <a href="{{ '/first-day.html' | relative_url }}">First Day</a>
-        <a href="{{ '/first-class.html' | relative_url }}">First Class</a>
-        <a href="{{ '/the-journey.html' | relative_url }}">The Journey</a>
+        <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Thoughts</a>
+        <a href="{{ '/pre-deployment-experience.html' | relative_url }}">Experience</a>
+        <a href="{{ '/pre-deployment-learned.html' | relative_url }}">What I learned about myself</a>
+        <a href="{{ '/pre-deployment-improve.html' | relative_url }}">Areas to Improve</a>
+      </div>
+    </details>
+
+    <details {% if page.url contains '/off-campus' %}open{% endif %}>
+      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Off-campus</summary>
+      <div style="padding-left: 15px;">
+        <a href="{{ '/off-campus-expectations.html' | relative_url }}">Thoughts & Expectations</a>
+        <a href="{{ '/off-campus-first-day.html' | relative_url }}">First Day</a>
+        <a href="{{ '/off-campus-first-class.html' | relative_url }}">First Class</a>
+        <a href="{{ '/off-campus-notable.html' | relative_url }}">Notable Experiences</a>
+        <a href="{{ '/off-campus-swot.html' | relative_url }}">Learnings (SWOT)</a>
         <a href="{{ '/off-campus-appendix.html' | relative_url }}">Appendix</a>
       </div>
     </details>
-    <a href="{{ '/on-campus.html' | relative_url }}">On-Campus Journey</a>
-    <a href="{{ '/appendix.html' | relative_url }}">Appendix</a>
+
+    <details {% if page.url contains '/on-campus' %}open{% endif %}>
+      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">On-campus</summary>
+      <div style="padding-left: 15px;">
+        <a href="{{ '/on-campus-expectations.html' | relative_url }}">Thoughts & Expectations</a>
+        <a href="{{ '/on-campus-first-day.html' | relative_url }}">First Day</a>
+        <a href="{{ '/on-campus-first-class.html' | relative_url }}">First Class</a>
+        <a href="{{ '/on-campus-notable.html' | relative_url }}">Notable Experiences</a>
+        <a href="{{ '/on-campus-swot.html' | relative_url }}">Learnings (SWOT)</a>
+        <a href="{{ '/on-campus-appendix.html' | relative_url }}">Appendix</a>
+      </div>
+    </details>
   </div>
   <div class="content">
     {{ content }}
