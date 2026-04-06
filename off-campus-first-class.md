@@ -22,3 +22,27 @@ After all my classes, I went to Ma’am Guiroy to ask for her feedback, and the 
 
 That day, I realized that engaging the students will allow their brains to internalize the lesson better, and that rushing just to finish the material is never a good strategy.
 
+<div class="carousel" style="max-width: 600px; position: relative;">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="width: 100%;">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class2.jpg.jpg' | relative_url }}" style="width: 100%;">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class3.jpg.jpg' | relative_url }}" style="width: 100%;">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class4.jpg' | relative_url }}" style="width: 100%;">
+
+  
+  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
+  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
+</div>
+
+<script>
+  let index = 1;
+  function shiftSlide(n) {
+    const slides = document.getElementsByClassName("carousel-slide");
+    index += n;
+    if (index > slides.length) { index = 1 }
+    if (index < 1) { index = slides.length }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[index - 1].style.display = "block";
+  }
+</script>
