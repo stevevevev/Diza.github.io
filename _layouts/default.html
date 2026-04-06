@@ -265,19 +265,35 @@
 
   <script>
 
-    let slideIndex = 1;
     function shiftSlide(n) {
-      const slides = document.querySelectorAll('.carousel-primary .carousel-slide, .carousel-secondary .carousel-slide, .carousel-profile .carousel-slide');
-      if (slides.length === 0) return; 
+      const event = window.event;
+      if (!event) return;
+
+      // Identify the specific carousel container that was interacted with
+      const carousel = event.target.closest('.carousel-primary, .carousel-secondary, .carousel-profile');
+      if (!carousel) return;
+
+      // Target only the slides within this isolated container
+      const slides = carousel.querySelectorAll('.carousel-slide');
+      if (slides.length === 0) return;
+
+      // Retrieve local index state, default to 1 if uninitialized
+      let currentIndex = parseInt(carousel.getAttribute('data-slide-index')) || 1;
       
-      slideIndex += n;
-      if (slideIndex > slides.length) { slideIndex = 1 }
-      if (slideIndex < 1) { slideIndex = slides.length }
+      currentIndex += n;
       
+      // Boundary calculation
+      if (currentIndex > slides.length) { currentIndex = 1; }
+      if (currentIndex < 1) { currentIndex = slides.length; }
+      
+      // Store the updated state back to the container
+      carousel.setAttribute('data-slide-index', currentIndex);
+      
+      // Execute display toggle
       for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
-      slides[slideIndex - 1].style.display = "block";
+      slides[currentIndex - 1].style.display = "block";
     }
 
     function toggleSidebar() {
