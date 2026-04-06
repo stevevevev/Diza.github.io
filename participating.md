@@ -74,5 +74,4 @@ title: Participating Schools
   </div>
   <div class="mentor-bio">
     <h3>Ms. Blezy V. Guiroy</h3>
-    <p>is a Master Teacher who handles six out of the eight grade 10 classes in City Central National High School. She is part of the science faculty, but does not have her own advisory class. Madame Guiroy emphasizes the importance of the art of questioning, and respect in her classes. Her style of teaching revolves around the socratic method, and is a perfect fit with my teaching philosophy. Under her tutelage, my art of questioning and classroom management significantly improved.
-</div>
+    <p>is a Master Teacher who handles six out of the eight grade 10 classes in City Central National High School. She is part of the science faculty, but does not have her own advisory class. Madame Guiroy emphasizes the importance of the art of questioning, and respect in her classes. Her style of teaching revolves around the socratic method, and is a perfect fit with my teaching philosophy. Under her tutelage, my art of questioning and classroom management significantly improved.</div>
