@@ -12,6 +12,9 @@ title: Participating Schools
     margin: 0 auto 20px auto;
     width: 150px;
   }
+  .h2{
+    text-align: center;
+  }
   .mentor-profile {
     display: flex;
     flex-wrap: wrap;
