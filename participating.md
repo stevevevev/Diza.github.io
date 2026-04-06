@@ -12,9 +12,6 @@ title: Participating Schools
     margin: 0 auto 20px auto;
     width: 150px;
   }
-  .h2{
-    text-align: center;
-  }
   .mentor-profile {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +40,7 @@ title: Participating Schools
   }
 </style>
 
-<h2>Pre-Deployment & On-Campus Deployment</h2>
+<h2 style="text-align:center;">Pre-Deployment & On-Campus Deployment</h2>
 
 <div class="school-section">
   <img class="school-logo" src="{{ '/assets/images/CNU-Logo.png' | relative_url }}" alt="CNU ILS Logo">
@@ -63,7 +60,7 @@ title: Participating Schools
 
 <hr style="border: 0; height: 1px; background: #ccc; margin: 60px 0;">
 
-<h2>Off-Campus Deployment</h2>
+<h2 style="text-align:center;">Off-Campus Deployment</h2>
 
 <div class="school-section">
   <img class="school-logo" src="{{ '/assets/images/CCNHS-logo.png' | relative_url }}" alt="CCNHS Logo">
