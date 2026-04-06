@@ -6,26 +6,23 @@ title: CNU VMGO
 <img src="assets/images/CNU-Logo.png" alt="CNU Logo" width="50%">
 <h2>Cebu Normal University</h2>
 Osmeña Boulevard, Cebu City Philippines 6000
-
+<br><br>
 Cebu Normal University (CNU) is a prestigious state university in Cebu City, Philippines, known for its excellence in education and community service, with a rich history dating back to 1902.
-
-
+<br><br>
 It was established in 1902 as a provincial normal school, initially serving as a branch of the Philippine Normal School. It became an independent institution in 1924, was designated a chartered college in 1976, and achieved university status in 1998. CNU is one of the oldest educational institutions in Cebu, with a significant role in training teachers and other professionals. 
-
-
+<br><br>
 CNU offers a wide range of academic programs, particularly excelling in teacher education and nursing. It has been recognized by the Commission on Higher Education (CHED) as a Center of Excellence in these fields. The university aims to develop competent and values-driven individuals through quality instruction, relevant research, and responsive extension programs. 
-
-
+<br><br><br>
 <h2> Vision</h2>
 
 By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proofed SMART (GREAT SMART CAMPUS)
-
+<br><br><br>
 <h2> Mission </h2>
 
 “Developing graduates equipped with world-class competences and imbued with positive values for them to be future-proof ready and become great leaders, professionals and stewards in their chosen vocation and of the society amidst destructive, volatile, uncertain, complex, ambiguous and divergent (DVUCAD) conditions”.
-
+<br><br><br>
 <h2> Development Goal Philosophy</h2>
-
+<br>
 <h3> G </h3>Good governance and administrative services agile to the ever-changing needs and expectations of the academic community and service areas as well as the development trends in the corporate and regulatory sectors.
 <br>
 <br>
@@ -39,6 +36,7 @@ By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proo
 <br>
 <br>
 <h3>T</h3>Technology inclusive through SMART Campus modality in the delivery of administrative services and the fourfold functions of the University namely, instruction, research, extension and production.
+<br>
 <br>
 <br>
 <img src="assets/images/CTE-logo.png" alt="CNU CTE Logo" width="50%">
