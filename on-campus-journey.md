@@ -80,7 +80,7 @@ Alongside that, I also participated in the CNU-ILS family day, and even hosted o
 <br>
 <img src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}" style="width: 100%;">
 <br>
-<div style="flex: 2; min-width: 400px; text-align: justify;>
+<div style="flex: 2; min-width: 400px; text-align: justify;">
 Lastly, as the culmination of my hard work, I was nominated for Best Teaching Intern for Science. After a grueling evaluation process, I secured 2nd place. This achievement was the result of applying everything I had learned throughout my journey—an accomplishment only made possible by great mentors and an unwavering commitment to growth.
 </div>
 
