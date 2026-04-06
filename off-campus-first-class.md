@@ -2,7 +2,8 @@
 layout: default
 title: First Class
 ---
-## First Class 
+<div style="flex: 2; min-width: 400px; text-align: justify;">
+<h2> First Class </h2>
 After my first day of getting to know my students, I had my first teaching responsibility. I was tasked to discuss the endocrine system, a topic which I only had a vague remembrance of. I studied well into the night before, and I felt myself ready to teach the topic. 
 
 9:30 A.M., my mentor had told me to conduct my class with Cabahug inside the computer laboratory. They arrived, and settled themselves, and I didn’t have to manage them all too much, though that’s probably because Ma’am Guiroy was at the back, together with the other faculty members. I stood in front of them all, staring at the 40+ students, and the 4 teachers at the back filled me with a nagging feeling of wanting to prove myself to be a good teacher. I was confident in my mastery of the content, but what I hadn’t mastered was the delivery. It was too teacher-centered. From the fear of not wanting to look stupid in front, I had focused too much on giving information that I had forgotten in what I prided myself in: “Questioning”.
@@ -21,6 +22,7 @@ Finally, in my final class, Rago, we breezed through the material as they had al
 After all my classes, I went to Ma’am Guiroy to ask for her feedback, and the main thing he noticed about me was the first impression that I had set earlier that morning—my teacher-centeredness. She was able to deduce why I had taught it that way, correctly guessing that I was in a rush to finish the material. She emphasized that although finishing the material is good, it’s better that the students are able to follow along, and internalize what I’m teaching. 
 
 That day, I realized that engaging the students will allow their brains to internalize the lesson better, and that rushing just to finish the material is never a good strategy.
+</div>
 
 <div class="carousel" style="max-width: 600px; position: relative;">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="width: 100%;">

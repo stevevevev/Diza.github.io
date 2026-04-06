@@ -2,7 +2,8 @@
 layout: default
 title: First Day
 ---
-## First Day
+<div style="flex: 2; min-width: 400px; text-align: justify;">
+<h2> First Day</h2>
 Our first day in CCNHS was definitely something. Most of us arrived early, I personally arrived at 6 A.M., but still couldn’t proceed because our school leader was running late (she’s a good leader, nonetheless) since she was still printing our documents. We waited in the Principal's office, chatting with one another until our leader arrived. When she handed over the required documents, we were called, specialization by specialization, until it was only us, the science majors left in the room. When it was our turn to be called, we were given a choice to pick which grade level we wanted. Initially, I was to handle the grade 7s, but I backtracked, and decided to handle the grade 10s, which turned out to be a good decision for me. Afterwards, I was told to wait for my mentor to arrive, and so I waited in front of the computer laboratory.
 
 When Madame Guiroy arrived, she had the aura of a “terror teacher”, and I thought to myself “okay, this is gonna be a good internship experience” (spoiler alert: it was). She explained to me my roles, and responsibilities that I was going to undertake, and she had already assigned to me the topics that I was to teach, and the schedules for the sections that I was to handle. 6 grade 10 classes, back to back, with only a 15 minute lunch break in between was definitely a rough schedule, but at least my time in was 9 AM with a 3 pm timeout, the same as hers. That day she just tasked me with getting to know the students, and to give time to the students after so they can work on their films.
@@ -22,25 +23,7 @@ My morning classes ended at 12:30, and it was time for my lunch break… which I
 Finally, my classes ended at 2:15 P.M., and after a quick chat with my mentor, I was free to do my business, and go home at 3:00 P.M., which I did.
 
 My first day of getting to know my classes felt a little satisfying, and I would relive that day if I could. Writing this only makes me miss my students more.
-
-<div class="carousel" style="max-width: 600px; position: relative;">
-  <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-first-day.jpg' | relative_url }}" style="width: 100%;">
-<img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-first-day2.jpg' | relative_url }}" style="width: 100%;">
-  
-  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
-  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
 </div>
 
-<script>
-  let index = 1;
-  function shiftSlide(n) {
-    const slides = document.getElementsByClassName("carousel-slide");
-    index += n;
-    if (index > slides.length) { index = 1 }
-    if (index < 1) { index = slides.length }
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slides[index - 1].style.display = "block";
-  }
-</script>
+<img src="{{ '/assets/images/off-campus/off-campus-first-day.jpg' | relative_url }}" style="width: 100%;">
+

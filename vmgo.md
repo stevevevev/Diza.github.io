@@ -2,9 +2,9 @@
 layout: default
 title: CNU VMGO
 ---
+<div style="flex: 2; min-width: 400px; text-align: center;">
 <img src="assets/images/CNU-Logo.png" alt="CNU Logo" width="150">
-
-## Cebu Normal University
+<h2>Cebu Normal University</h2>
 Osmeña Boulevard, Cebu City Philippines 6000
 
 Cebu Normal University (CNU) is a prestigious state university in Cebu City, Philippines, known for its excellence in education and community service, with a rich history dating back to 1902.
@@ -16,15 +16,15 @@ It was established in 1902 as a provincial normal school, initially serving as a
 CNU offers a wide range of academic programs, particularly excelling in teacher education and nursing. It has been recognized by the Commission on Higher Education (CHED) as a Center of Excellence in these fields. The university aims to develop competent and values-driven individuals through quality instruction, relevant research, and responsive extension programs. 
 
 
-### Vision
+<h2> Vision</h2>
 
 By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proofed SMART (GREAT SMART CAMPUS)
 
-### Mission
+<h2> Mission </h2>
 
 “Developing graduates equipped with world-class competences and imbued with positive values for them to be future-proof ready and become great leaders, professionals and stewards in their chosen vocation and of the society amidst destructive, volatile, uncertain, complex, ambiguous and divergent (DVUCAD) conditions”.
 
-### Development Goal Philosophy
+<h2> Development Goal Philosophy</h2>
 
 <B> G </b>– Good governance and administrative services agile to the ever-changing needs and expectations of the academic community and service areas as well as the development trends in the corporate and regulatory sectors.
 
@@ -38,6 +38,7 @@ By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proo
 
 <img src="assets/images/CTE-logo.png" alt="CNU CTE Logo" width="150">
 
-## College of Teacher Education
+<h2> College of Teacher Education </h2>
 
 The College of Teacher Education envisions its graduates from the different degree programs to demonstrate technological, pedagogical content knowledge (TCPCK) imbued with the essential skills that prepare them for excellence in the delivery of relevant, meaningful and facilitative instruction in the basic education. Moreover, the college aspires its graduates to be leaders in promoting education for sustainable development addressing emerging socio-cultural, economic, and environmental concerns.
+</div>
