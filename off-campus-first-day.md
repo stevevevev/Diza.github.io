@@ -25,8 +25,7 @@ My first day of getting to know my classes felt a little satisfying, and I would
 
 <div class="carousel" style="max-width: 600px; position: relative;">
   <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-first-day.jpg' | relative_url }}" style="width: 100%;">
-<img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-first-day2.jpg' | relative_url }}" style="width: 100%; display: none;">
-<img class="carousel-slide" src="{{ '/assets/images/photo3.jpg' | relative_url }}" style="width: 100%; display: none;">
+<img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-first-day2.jpg' | relative_url }}" style="width: 100%;">
   
   <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
   <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
