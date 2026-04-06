@@ -3,14 +3,14 @@ layout: default
 title: Home
 ---
 
-<div class="carousel-primary" style="max-width: 600px; position: relative;">
-  <img class="carousel-slide" src="/assets/images/co-interns/Co-interns-pinning.jpg" style="width: 100%;">
-  <img class="carousel-slide" src="/assets/images/off-campus/off-campus-visit.jpg" style="width: 100%; display: none;">
-  <img class="carousel-slide" src="/assets/images/on-campus/on-campus-family-day.jpg" style="width: 100%; display: none;">
-  <img class="carousel-slide" src="/assets/images/on-campus/on-campus-summative.jpg" style="width: 100%; display: none;">
+<div class="carousel-primary">
+  <img class="carousel-slide" src="{{ '/assets/images/co-interns/Co-interns-pinning.jpg' | relative_url }}" style="display: block;">
+  <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-visit.jpg' | relative_url }}">
+  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}">
+  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-summative.jpg' | relative_url }}">
 
-  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
-  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
+  <button class="nav-btn prev" onclick="shiftSlide(-1)">&#10094;</button>
+  <button class="nav-btn next" onclick="shiftSlide(1)">&#10095;</button>
 </div>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
 <p>I never thought I was smart.
