@@ -19,7 +19,7 @@ title: Participating Schools
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 40px;
     text-align: justify;
