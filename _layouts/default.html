@@ -4,15 +4,63 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <style>
-    body { display: flex; margin: 0; font-family: Arial, sans-serif; }
-    .sidebar { width: 250px; height: 100vh; background: #333; color: white; padding: 20px; position: fixed; }
+    body { display: flex; margin: 0; font-family: Arial, sans-serif; overflow-x: hidden; }
+    
+    .sidebar { 
+      width: 250px; 
+      height: 100vh; 
+      background: #333; 
+      color: white; 
+      padding: 20px; 
+      position: fixed; 
+      top: 0;
+      left: 0;
+      transition: transform 0.3s ease; 
+      z-index: 1000;
+      overflow-y: auto;
+    }
+    
+    .sidebar.collapsed { 
+      transform: translateX(-100%); 
+    }
+    
     .sidebar a { color: white; text-decoration: none; display: block; margin-bottom: 10px; }
-    .content { margin-left: 290px; padding: 40px; flex-grow: 1; max-width: 800px; }
+    
+    .content { 
+      margin-left: 290px; 
+      padding: 40px; 
+      padding-top: 60px; 
+      flex-grow: 1; 
+      max-width: 800px; 
+      transition: margin-left 0.3s ease; 
+    }
+    
+    .content.expanded { 
+      margin-left: 40px; 
+    }
+    
+    .toggle-btn {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 1001;
+      background: #555;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .toggle-btn:hover { background: #777; }
   </style>
 </head>
 <body>
-<div class="sidebar">
-    <h3>Internship Journey</h3>
+
+  <button class="toggle-btn" onclick="toggleSidebar()">☰ Menu</button>
+
+  <div class="sidebar" id="dossierSidebar">
+    <h3 style="margin-top: 40px;">Internship Journey</h3>
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/introduction.html' | relative_url }}">Introduction</a>
     <a href="{{ '/vmgo.html' | relative_url }}">CNU</a>
@@ -50,8 +98,16 @@
       </div>
     </details>
   </div>
-  <div class="content">
+  
+  <div class="content" id="mainContent">
     {{ content }}
   </div>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('dossierSidebar').classList.toggle('collapsed');
+      document.getElementById('mainContent').classList.toggle('expanded');
+    }
+  </script>
 </body>
 </html>
