@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <style>
+<style>
     body { display: flex; margin: 0; font-family: Arial, sans-serif; overflow-x: hidden; }
     
     .sidebar { 
@@ -32,10 +32,10 @@
       padding: 0 10px;
     }
     
+    /* Core Link & Summary Standardization */
     .sidebar a, .sidebar summary { 
       color: white; 
       text-decoration: none; 
-      display: block; 
       margin-bottom: 5px; 
       padding: 10px;
       transition: background-color 0.2s, color 0.2s;
@@ -45,13 +45,23 @@
       outline: none;
     }
 
+    /* Isolated Display States to preserve triangles */
+    .sidebar a {
+      display: block;
+    }
+
+    .sidebar summary {
+      display: list-item;
+      list-style-position: inside;
+    }
+
     .sidebar a:hover, .sidebar summary:hover {
       background-color: rgba(255, 255, 255, 0.05);
     }
     
+    /* Static Active State (Bold Removed) */
     .sidebar a.active {
       color: #FFD700;
-      font-weight: bold;
       border-left: 4px solid #FFD700;
       background-color: rgba(255, 255, 255, 0.1);
     }
@@ -91,9 +101,9 @@
       border-radius: 4px;
       font-weight: bold;
     }
+    
     .toggle-btn:hover { background: #777; }
 
-    /* Mobile Responsiveness Protocol */
     @media screen and (max-width: 768px) {
       .sidebar {
         transform: translateX(-100%);
@@ -129,7 +139,7 @@
     <details {% if page.url contains '/pre-deployment' %}open{% endif %}>
       <summary>Pre-deployment</summary>
       <div>
-        <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Thoughts</a>
+        <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Goals</a>
         <a href="{{ '/pre-deployment-experience.html' | relative_url }}">Experience</a>
         <a href="{{ '/pre-deployment-insights.html' | relative_url }}">Insights</a>
       </div>
