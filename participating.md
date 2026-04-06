@@ -41,7 +41,7 @@ title: Participating Schools
 </style>
 
 <h2 style="text-align:center;">Pre-Deployment & On-Campus Deployment</h2>
-
+<br>
 <div class="school-section">
   <img class="school-logo" src="{{ '/assets/images/CNU-Logo.png' | relative_url }}" alt="CNU ILS Logo">
   <h3>Cebu Normal University - Integrated Laboratory School</h3>
@@ -61,7 +61,7 @@ title: Participating Schools
 <hr style="border: 0; height: 1px; background: #ccc; margin: 60px 0;">
 
 <h2 style="text-align:center;">Off-Campus Deployment</h2>
-
+<br>
 <div class="school-section">
   <img class="school-logo" src="{{ '/assets/images/CCNHS-logo.png' | relative_url }}" alt="CCNHS Logo">
   <h3>City Central National High School</h3>
