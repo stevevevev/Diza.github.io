@@ -19,7 +19,6 @@
     .sidebar { 
       width: 250px; 
       height: 100vh; 
-      /* Updated to Translucent Dark Grey for Pervasive View */
       background: rgba(163, 0, 0, 0.736); 
       color: white; 
       padding: 20px; 
@@ -30,6 +29,8 @@
       z-index: 1000;
       overflow-y: auto;
       box-sizing: border-box;
+      border-right-width:2px;
+      border-right-color:#FFD700;
     }
     
     .sidebar.collapsed { 
@@ -52,8 +53,6 @@
       box-sizing: border-box;
       cursor: pointer;
       outline: none;
-      border-right-width:2px;
-      border-right-color:#FFD700;
     }
 
     .sidebar a {
