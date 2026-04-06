@@ -6,7 +6,7 @@ title: First Class
 <h2> First Class </h2>
 
 After my first day of getting to know my students, I had my first teaching responsibility. I was tasked to discuss the endocrine system, a topic which I only had a vague remembrance of. I studied well into the night before, and I felt myself ready to teach the topic. 
-<Br>
+<br>
 <br>
 9:30 A.M., my mentor had told me to conduct my class with Cabahug inside the computer laboratory. They arrived, and settled themselves, and I didn’t have to manage them all too much, though that’s probably because Ma’am Guiroy was at the back, together with the other faculty members. I stood in front of them all, staring at the 40+ students, and the 4 teachers at the back filled me with a nagging feeling of wanting to prove myself to be a good teacher. I was confident in my mastery of the content, but what I hadn’t mastered was the delivery. It was too teacher-centered. From the fear of not wanting to look stupid in front, I had focused too much on giving information that I had forgotten in what I prided myself in: “Questioning”.
 <br>
@@ -15,7 +15,7 @@ After my first day of getting to know my students, I had my first teaching respo
 <br>
 <br>
 11:00 A.M., and Ma’am Guiroy still taught in Yap herself. It was a similar experience as in Ibona. 
-<Br>
+<br>
 <br>
 11:45, Grade 10 - Montalban, I finally got my time. I followed what Ma’am Guiroy had shown in the last sections. I didn’t come in until the class was settled, and when I did, I modified my way of teaching. A combination of teacher-centered and learner-centered teaching was what I came up with to solve the issue of time management, and I saw immediate improvement. I was able to make the students participate more, and at the same time, I was able to cover much more of the topic. The class ended at 12:30 on a positive note, and we were on track to finishing in the following day.
 <br>
