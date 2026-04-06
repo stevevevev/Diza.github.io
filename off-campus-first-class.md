@@ -37,12 +37,12 @@ That day, I realized that engaging the students will allow their brains to inter
 <br>
 
 <div class="carousel-secondary">
-    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="display: block;>
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="display: block;">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class2.jpg' | relative_url }}">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class3.jpg' | relative_url }}">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class4.jpg' | relative_url }}">
 
   
-  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
-  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
+  <button class="nav-btn prev" onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
+  <button class="nav-btn next" onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
 </div>
