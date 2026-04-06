@@ -4,13 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-<style>
-    body { display: flex; margin: 0; font-family: Arial, sans-serif; overflow-x: hidden; }
+  <style>
+    /* Pervasive Fixed Background Protocol */
+    body { 
+      display: flex; margin: 0; font-family: Arial, sans-serif; overflow-x: hidden; 
+      
+      /* New Parallax CSS */
+      background-image: url('{{ '/assets/images/parallax-bg.jpg' | relative_url }}');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     
+    /* Translucent Sidebar */
     .sidebar { 
       width: 250px; 
       height: 100vh; 
-      background: #333; 
+      /* Updated to Translucent Dark Grey for Pervasive View */
+      background: rgba(51, 51, 51, 0.95); 
       color: white; 
       padding: 20px; 
       position: fixed; 
@@ -32,7 +44,6 @@
       padding: 0 10px;
     }
     
-    /* Core Link & Summary Standardization */
     .sidebar a, .sidebar summary { 
       color: white; 
       text-decoration: none; 
@@ -45,7 +56,6 @@
       outline: none;
     }
 
-    /* Isolated Display States to preserve triangles */
     .sidebar a {
       display: block;
     }
@@ -59,7 +69,6 @@
       background-color: rgba(255, 255, 255, 0.05);
     }
     
-    /* Static Active State (Bold Removed) */
     .sidebar a.active {
       color: #FFD700;
       border-left: 4px solid #FFD700;
@@ -74,6 +83,7 @@
       padding-left: 15px;
     }
 
+    /* Translucent Content Area for Legibility */
     .content { 
       margin-left: 250px; 
       padding: 40px; 
@@ -81,6 +91,9 @@
       flex-grow: 1; 
       transition: margin-left 0.3s ease; 
       box-sizing: border-box;
+      
+      /* New: Translucent White foreground overlay */
+      background-color: rgba(255, 255, 255, 0.9); 
     }
     
     .content.expanded { 
@@ -100,7 +113,6 @@
       border-radius: 4px;
       font-weight: bold;
     }
-    
     .toggle-btn:hover { background: #777; }
 
     @media screen and (max-width: 768px) {
@@ -126,19 +138,19 @@
 <body>
 
   <button class="toggle-btn" onclick="toggleSidebar()">☰ Menu</button>
-<br>
+
   <div class="sidebar" id="dossierSidebar">
     <h3>Internship Journey</h3>
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/introduction.html' | relative_url }}">Introduction</a>
-    <a href="{{ '/vmgo.html' | relative_url }}">Cebu Normal University</a>
+    <a href="{{ '/vmgo.html' | relative_url }}">CNU</a>
     <a href="{{ '/co-interns.html' | relative_url }}">Co-Interns</a>
     <a href="{{ '/participating.html' | relative_url }}">Participating Schools</a>
 
     <details {% if page.url contains '/pre-deployment' %}open{% endif %}>
       <summary>Pre-deployment</summary>
       <div>
-        <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Goals</a>
+        <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Thoughts</a>
         <a href="{{ '/pre-deployment-experience.html' | relative_url }}">Experience</a>
         <a href="{{ '/pre-deployment-insights.html' | relative_url }}">Insights</a>
       </div>
@@ -168,7 +180,9 @@
   </div>
   
   <div class="content" id="mainContent">
-    {{ content }}
+    <div style="max-width: 800px; margin: 0 auto;">
+      {{ content }}
+    </div>
   </div>
 
   <script>
