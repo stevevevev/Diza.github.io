@@ -131,54 +131,67 @@
       box-shadow: 0 8px 16px rgba(0,0,0,0.5);
     }
     
-    /* Standardized Grid Architecture for Legacy Carousels */
-    .carousel-primary, .carousel-secondary {
-      position: relative;
-      width: 100%;
-      margin: 20px auto;
-      display: grid; /* Forces tallest-child height matching */
-    }
+    .carousel-primary .carousel-slide { width: 100%; display: none; }
     
-    .carousel-primary { max-width: 1000px; }
-    .carousel-secondary { max-width: 600px; }
-    
-    .carousel-primary .carousel-slide, 
-    .carousel-secondary .carousel-slide { 
-      grid-area: 1 / 1; /* Overlaps slides in the same cell */
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.6s ease-in-out, visibility 0.6s;
-      width: 100%;
-    }
-
-    .carousel-primary .carousel-slide.active, 
-    .carousel-secondary .carousel-slide.active {
-      opacity: 1;
-      visibility: visible;
-      z-index: 2;
-    }
-    
-    /* Retained Primary Button Styling */
     .carousel-primary .nav-btn {
-      position: absolute; top: 50%; transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.4); color: white; border: none;
-      font-size: 30px; padding: 15px 10px; cursor: pointer;
-      transition: background 0.3s, color 0.3s; z-index: 10;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      border: none;
+      font-size: 30px;
+      padding: 15px 10px;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
     }
+    
     .carousel-primary .nav-btn:hover { background: rgba(0, 0, 0, 0.9); color: #FFD700; }
     .carousel-primary .prev { left: 0; }
     .carousel-primary .next { right: 0; }
 
-    /* Retained Secondary Button Styling */
-    .carousel-secondary .nav-btn {
-      position: absolute; top: 50%; transform: translateY(-50%);
-      background: rgba(255, 255, 255, 0.7); color: #333; border: none;
-      font-size: 20px; padding: 10px 15px; cursor: pointer; border-radius: 50%;
-      margin: 0 10px; z-index: 10;
+    /* Secondary Carousel Container (Subpages) */
+    .carousel-secondary {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      border: 1px solid #ccc;
     }
+    
+    .carousel-secondary .carousel-slide { width: 100%; display: none; }
+    
+    .carousel-secondary .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.7);
+      color: #333;
+      border: none;
+      font-size: 20px;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 50%;
+      margin: 0 10px;
+    }
+    
     .carousel-secondary .nav-btn:hover { background: rgba(255, 255, 255, 1); }
     .carousel-secondary .prev { left: 0; }
     .carousel-secondary .next { right: 0; }
+
+/* CSS Keyframe Animation for Carousel Fading */
+    @keyframes fadeTransition {
+      from { opacity: 0.1; }
+      to { opacity: 1; }
+    }
+
+    .carousel-primary .carousel-slide, 
+    .carousel-secondary .carousel-slide {
+      animation: fadeTransition 0.6s ease-in-out;
+    }
 
     @media screen and (max-width: 768px) {
       .sidebar {
@@ -252,31 +265,35 @@
 
   <script>
 
-/* Unified Grid Carousel Protocol */
     function shiftSlide(n) {
       const event = window.event;
       if (!event) return;
 
-      const carousel = event.target.closest('.carousel-primary, .carousel-secondary, .carousel-profile, .carousel-dynamic');
+      // Identify the specific carousel container that was interacted with
+      const carousel = event.target.closest('.carousel-primary, .carousel-secondary, .carousel-profile');
       if (!carousel) return;
 
+      // Target only the slides within this isolated container
       const slides = carousel.querySelectorAll('.carousel-slide');
       if (slides.length === 0) return;
 
+      // Retrieve local index state, default to 1 if uninitialized
       let currentIndex = parseInt(carousel.getAttribute('data-slide-index')) || 1;
       
       currentIndex += n;
       
+      // Boundary calculation
       if (currentIndex > slides.length) { currentIndex = 1; }
       if (currentIndex < 1) { currentIndex = slides.length; }
       
+      // Store the updated state back to the container
       carousel.setAttribute('data-slide-index', currentIndex);
       
-      // Universal Grid Class Execution
+      // Execute display toggle
       for (let i = 0; i < slides.length; i++) {
-        slides[i].classList.remove('active');
+        slides[i].style.display = "none";
       }
-      slides[currentIndex - 1].classList.add('active');
+      slides[currentIndex - 1].style.display = "block";
     }
 
     function toggleSidebar() {

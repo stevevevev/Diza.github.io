@@ -37,7 +37,7 @@ That day, I realized that engaging the students will allow their brains to inter
 <br>
 
 <div class="carousel-secondary">
-    <img class="carousel-slide active" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="display: block;">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class2.jpg' | relative_url }}">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class3.jpg' | relative_url }}">
     <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class4.jpg' | relative_url }}">
