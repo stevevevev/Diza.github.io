@@ -20,13 +20,26 @@ title: First Set of Classes
   <p>My first set of classes set the tone for the rest of my on-campus journey. Most of my expectations I was able to meet and exceed. My learnings from my pre-deployment, together with the lessons I gained from my off-campus journey transformed my teaching in ways my old self never could have imagined.</p>
 </div>
 
-<div class="carousel-secondary">
-  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-summative.jpg' | relative_url }}" style="display: block;">
-  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-pre-conference.jpg' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-post-conference.jpg' | relative_url }}">
+<div class="carousel-secondary" data-slide-index="1">
+  
+  <div class="carousel-slide active">
+    <img src="{{ '/assets/images/on-campus/summative.jpg' | relative_url }}" alt="Research Panel 1">
+    <p class="slide-caption"> Attendance Checking </p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/on-campus/pre-conference.jpg' | relative_url }}" alt="Research Panel 2">
+    <p class="slide-caption"> Pre-conference </p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/on-campus/post-conference.jpg' | relative_url }}" alt="Research Panel 3">
+    <p class="slide-caption"> Post-conference </p>
+  </div>
   
   <button class="nav-btn prev" onclick="shiftSlide(-1)">&#10094;</button>
   <button class="nav-btn next" onclick="shiftSlide(1)">&#10095;</button>
+
 </div>
 
 <div style="text-align: justify; margin-top: 60px; margin-bottom: 40px;">
@@ -34,13 +47,23 @@ title: First Set of Classes
   <p>Along my on-campus journey, there were 3 events that made it feel even more special. First, my SHS advisor contacted me to be a panel for the 5-day research congress of 70 grade 12 students. I accepted this invitation because it felt like an honor to be part of such an event despite still being a student.</p>
 </div>
 
-<div class="carousel-secondary">
-  <img class="carousel-slide" src="{{ '/assets/images/research1.png' | relative_url }}" style="display: block;">
-  <img class="carousel-slide" src="{{ '/assets/images/research2.png' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/research3.png' | relative_url }}">
+<div class="carousel-secondary" data-slide-index="1">
+  
+  <div class="carousel-slide active">
+    <img src="{{ '/assets/images/research1.png' | relative_url }}" alt="Research Panel 1">
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/research2.png' | relative_url }}" alt="Research Panel 2">
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/research3.png' | relative_url }}" alt="Research Panel 3">
+  </div>
   
   <button class="nav-btn prev" onclick="shiftSlide(-1)">&#10094;</button>
   <button class="nav-btn next" onclick="shiftSlide(1)">&#10095;</button>
+
 </div>
 
 <div style="text-align: justify; margin-top: 60px; margin-bottom: 20px;">

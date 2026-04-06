@@ -3,17 +3,38 @@ layout: default
 title: Home
 ---
 
-<div class="carousel-primary">
-  <img class="carousel-slide" src="{{ '/assets/images/co-interns/Co-interns-pinning.jpg' | relative_url }}" style="display: block;">
-  <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-visit.jpg' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-summative.jpg' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/research3.png' | relative_url }}">
-  <img class="carousel-slide" src="{{ '/assets/images/Screenshot.png' | relative_url }}">
+<div class="carousel-primary" data-slide-index="1">
+  
+  <div class="carousel-slide active">
+    <img src="{{ '/assets/images/co-interns/Co-interns-pinning.jpg' | relative_url }}">
+    <p class="slide-caption">Co-interns during Pinning Ceremony</p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/off-campus/off-campus-visit.jpg' | relative_url }}">
+    <p class="slide-caption">Off-campus visit from CNU</p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}">
+    <p class="slide-caption">Family Day</p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/research3.png' | relative_url }}">
+    <p class="slide-caption">Panelist for a Research Congress</p>
+  </div>
+
+  <div class="carousel-slide">
+    <img src="{{ '/assets/images/Screenshot.png' | relative_url }}">
+    <p class="slide-caption">Rank 2 in Teaching Intern for BSED-Science</p>
+  </div>
  
   <button class="nav-btn prev" onclick="shiftSlide(-1)">&#10094;</button>
   <button class="nav-btn next" onclick="shiftSlide(1)">&#10095;</button>
+
 </div>
+
 <div style="max-width: 1000px; margin: 0 auto; text-align: justify; padding-top: 40px;">
 
   <img src="{{ '/assets/images/Landiza-picture.png' | relative_url }}" 
