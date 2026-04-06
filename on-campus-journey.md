@@ -45,12 +45,13 @@ My first set of classes set the tone for the rest of my on-campus journey. Most 
   }
 </script>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
-<h2> Notable Experiences
-
+<h2> Notable Experiences</h2>
+<br>
+<br>
 Along my on-campus journey, there were 3 events that made it feel even more special. First, my SHS advisor contacted me to be a panel for the 5-day research congress of 70 grade 12 students. I accepted this invitation because it felt like an honor to be part of such an event despite still being a student. 
 </div>
-
-
+<br>
+<br>
 <div class="carousel" style="max-width: 600px; position: relative;">
   <img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;">
 <img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;">
@@ -72,7 +73,8 @@ Along my on-campus journey, there were 3 events that made it feel even more spec
     slides[index - 1].style.display = "block";
   }
 </script>
-
+<br>
+<br>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
 Alongside that, I also participated in the CNU-ILS family day, and even hosted one of the games, keeping up the energy of the event, and making sure the game proceeded smoothly
 </div>
