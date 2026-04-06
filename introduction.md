@@ -8,7 +8,7 @@ title: Introduction
     <img src="{{ '/assets/images/Landiza-barong.JPG' | relative_url }}" alt="Profile Photo" style="width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </div>
 
-  <div style="flex: 2; min-width: 500px; text-align: justify;">
+  <div style="flex: 2; min-width: 400px; text-align: justify;">
     <h2 style="margin-top: 0;">Bionote</h2>
     <p>John Steve C. Landiza is a fourth-year undergraduate pursuing a Bachelor of Secondary Education, Major in Science, at Cebu Normal University. A DOST JLSS-Merit Scholar, his current research investigates educational gamification via Choose Your Own Adventure (CYOA) frameworks and evaluates educators' artificial intelligence proficiency, prompt engineering skills, and correlating perceptions of AI utility. Foundational research at Mandaue City Science High School optimized biofuel extraction from Musa acuminata and assessed its anti-corrosive properties. Landiza supplements his academic record with online instructional roles.</p>
     
