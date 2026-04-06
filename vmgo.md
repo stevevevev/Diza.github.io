@@ -26,19 +26,19 @@ By 2027, CNU a Globally Recognized Institution as Agile and Technologically-Proo
 
 <h2> Development Goal Philosophy</h2>
 
-<h3> G </h3>– Good governance and administrative services agile to the ever-changing needs and expectations of the academic community and service areas as well as the development trends in the corporate and regulatory sectors.
+<h3> G </h3>Good governance and administrative services agile to the ever-changing needs and expectations of the academic community and service areas as well as the development trends in the corporate and regulatory sectors.
 <br>
 <br>
-<h3>R </h3> – Research and development programs, projects and studies attuned with and contributory to the international, national, regional and local R&D thrusts that would enhance ingenuity, innovation, creativity, intellectual property rights, and scientific capabilities of the faculty members and students and thereby meaningfully enrich the body of knowledge of various disciplines and strengthen the income generating projects and resource generation of the University.
+<h3>R </h3>Research and development programs, projects and studies attuned with and contributory to the international, national, regional and local R&D thrusts that would enhance ingenuity, innovation, creativity, intellectual property rights, and scientific capabilities of the faculty members and students and thereby meaningfully enrich the body of knowledge of various disciplines and strengthen the income generating projects and resource generation of the University.
 <br>
 <br>
-<h3>E</h3> – Extension services that shall serve as a catalyst for positive and meaningful transformation of the lives of the disadvantaged and vulnerable individuals for them to contribute productively in attaining progress in their respective communities.
+<h3>E</h3>Extension services that shall serve as a catalyst for positive and meaningful transformation of the lives of the disadvantaged and vulnerable individuals for them to contribute productively in attaining progress in their respective communities.
 <br>
 <br>
-<h3>A</h3> – Academic programs and services capable of preparing students to be future-proof ready and resilient amidst rapid societal and technological changes.
+<h3>A</h3>Academic programs and services capable of preparing students to be future-proof ready and resilient amidst rapid societal and technological changes.
 <br>
 <br>
-<h3>T</h3> – Technology inclusive through SMART Campus modality in the delivery of administrative services and the fourfold functions of the University namely, instruction, research, extension and production.
+<h3>T</h3>Technology inclusive through SMART Campus modality in the delivery of administrative services and the fourfold functions of the University namely, instruction, research, extension and production.
 <br>
 <br>
 <img src="assets/images/CTE-logo.png" alt="CNU CTE Logo" width="50%">
