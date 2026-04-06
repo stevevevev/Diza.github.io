@@ -2,10 +2,10 @@
 layout: default
 title: Co-Interns
 ---
-<img src="assets/images/co-interns/Co-interns-pinning.jpg" alt="The Interns" width="150">
+<img src="assets/images/co-interns/Co-interns-pinning.jpg" alt="The Interns" width="100%">
 
 ### Scott Alao
-<img src="assets/images/co-interns/Alao.jpg" alt="Scott" width="100%">
+<img src="assets/images/co-interns/Alao.jpg" alt="Scott" width="150">
 
 ### Cezel Joy Bayon-on
 <img src="assets/images/co-interns/SISIL.jpg" alt="Cezel" width="150">
