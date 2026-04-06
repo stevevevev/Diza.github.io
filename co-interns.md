@@ -30,7 +30,7 @@ title: Co-Interns
   }
 </style>
 
-<h1>Co-Interns</h1>
+<h1 style="text-align:center">Co-Interns</h1>
 <img src="{{ '/assets/images/co-interns/Co-interns-pinning.jpg' | relative_url }}" alt="The Interns" style="width: 100%; margin-bottom: 60px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 <div class="intern-grid">
