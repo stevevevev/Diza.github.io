@@ -25,8 +25,8 @@ My first set of classes set the tone for the rest of my on-campus journey. Most 
 <br>
 <div class="carousel" style="max-width: 600px; position: relative;">
     <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-summative.jpg' | relative_url }}" style="width: 100%;">
-    <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-pre-conference.jpg' | relative_url }}" style="width: 100%;">
-    <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-post-conference.jpg' | relative_url }}" style="width: 100%;">
+    <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-pre-conference.jpg' | relative_url }}" style="width: 100%;display: none;" >
+    <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-post-conference.jpg' | relative_url }}" style="width: 100%;display: none;">
   
   <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
   <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
@@ -53,7 +53,7 @@ Along my on-campus journey, there were 3 events that made it feel even more spec
 <br>
 <div class="carousel" style="max-width: 600px; position: relative;">
   <img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;">
-<img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;">
+<img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;display: none;">
   
   <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
   <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
@@ -78,10 +78,10 @@ Along my on-campus journey, there were 3 events that made it feel even more spec
 Alongside that, I also participated in the CNU-ILS family day, and even hosted one of the games, keeping up the energy of the event, and making sure the game proceeded smoothly
 </div>
 <br>
-<img src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}" style="width: 100%;">
+<img src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}" style="width: 50%;">
 <br>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
 Lastly, as the culmination of my hard work, I was nominated for Best Teaching Intern for Science. After a grueling evaluation process, I secured 2nd place. This achievement was the result of applying everything I had learned throughout my journey—an accomplishment only made possible by great mentors and an unwavering commitment to growth.
 </div>
 
-<img src="{{ '/assets/images/Screenshot.png' | relative_url }}" style="width: 100%;">
+<img src="{{ '/assets/images/Screenshot.png' | relative_url }}" style="width: 50%;">
