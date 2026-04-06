@@ -28,17 +28,3 @@ title: Home
 <p>“Better a fool now and ask, than remain a fool forever.” 
 <br>
 <br>
-
-<script>
-  let index = 1;
-  function shiftSlide(n) {
-    const slides = document.getElementsByClassName("carousel-slide");
-    index += n;
-    if (index > slides.length) { index = 1 }
-    if (index < 1) { index = slides.length }
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slides[index - 1].style.display = "block";
-  }
-</script>

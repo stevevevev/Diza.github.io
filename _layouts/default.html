@@ -8,13 +8,11 @@
     /* Pervasive Fixed Background Protocol */
     body { 
       display: flex; margin: 0; font-family: Arial, sans-serif; overflow-x: hidden; 
-      
-      /* New Parallax CSS */
-      background-image: url('{{ '/assets/images/CNU-view.png' | relative_url }}');
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-image: url("{{ '/assets/images/CNU-view.png' | relative_url }}");
+      background-attachment:fixed;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
     }
     
     /* Translucent Sidebar */
@@ -249,6 +247,22 @@
   </div>
 
   <script>
+
+    let slideIndex = 1;
+    function shiftSlide(n) {
+      const slides = document.querySelectorAll('.carousel-primary .carousel-slide, .carousel-secondary .carousel-slide');
+      if (slides.length === 0) return; 
+      
+      slideIndex += n;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      if (slideIndex < 1) { slideIndex = slides.length }
+      
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
     function toggleSidebar() {
       const sidebar = document.getElementById('dossierSidebar');
       const content = document.getElementById('mainContent');

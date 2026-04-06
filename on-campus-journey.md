@@ -51,27 +51,13 @@ Along my on-campus journey, there were 3 events that made it feel even more spec
 </div>
 <br>
 <br>
-<div class="carousel" style="max-width: 600px; position: relative;">
+<div class="carousel-secondary" style="max-width: 600px; position: relative;">
   <img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;">
 <img class="carousel-slide" src="{{ '/assets/images/' | relative_url }}" style="width: 100%;display: none;">
   
   <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
   <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
 </div>
-
-<script>
-  let index = 1;
-  function shiftSlide(n) {
-    const slides = document.getElementsByClassName("carousel-slide");
-    index += n;
-    if (index > slides.length) { index = 1 }
-    if (index < 1) { index = slides.length }
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slides[index - 1].style.display = "block";
-  }
-</script>
 <br>
 <br>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
