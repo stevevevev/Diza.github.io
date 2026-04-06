@@ -2,6 +2,7 @@
 layout: default
 title: Co-Interns
 ---
+# Co-Interns
 <img src="assets/images/co-interns/Co-interns-pinning.jpg" alt="The Interns" width="100%">
 
 ### Scott Alao
