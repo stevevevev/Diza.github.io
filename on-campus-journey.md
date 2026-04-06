@@ -21,7 +21,8 @@ The next lesson assignment my partner and I got was “Kinetic and Potential Ene
 
 My first set of classes set the tone for the rest of my on-campus journey. Most of my expectations I was able to meet and exceed. My learnings from my pre-deployment, together with the lessons I gained from my off-campus journey transformed my teaching in ways my old self never could have imagined.
 </div>
-
+<br>
+<br>
 <div class="carousel" style="max-width: 600px; position: relative;">
     <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-summative.jpg' | relative_url }}" style="width: 100%;">
     <img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-pre-conference.jpg' | relative_url }}" style="width: 100%;">
@@ -46,8 +47,6 @@ My first set of classes set the tone for the rest of my on-campus journey. Most 
 </script>
 <div style="flex: 2; min-width: 400px; text-align: justify;">
 <h2> Notable Experiences</h2>
-<br>
-<br>
 Along my on-campus journey, there were 3 events that made it feel even more special. First, my SHS advisor contacted me to be a panel for the 5-day research congress of 70 grade 12 students. I accepted this invitation because it felt like an honor to be part of such an event despite still being a student. 
 </div>
 <br>
@@ -78,11 +77,11 @@ Along my on-campus journey, there were 3 events that made it feel even more spec
 <div style="flex: 2; min-width: 400px; text-align: justify;">
 Alongside that, I also participated in the CNU-ILS family day, and even hosted one of the games, keeping up the energy of the event, and making sure the game proceeded smoothly
 </div>
-
-<img class="carousel-slide" src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}" style="width: 100%;
-
-<div style="flex: 2; min-width: 400px; text-align: justify;">
+<br>
+<img src="{{ '/assets/images/on-campus/on-campus-family-day.jpg' | relative_url }}" style="width: 100%;">
+<br>
+<div style="flex: 2; min-width: 400px; text-align: justify;>
 Lastly, as the culmination of my hard work, I was nominated for Best Teaching Intern for Science. After a grueling evaluation process, I secured 2nd place. This achievement was the result of applying everything I had learned throughout my journey—an accomplishment only made possible by great mentors and an unwavering commitment to growth.
 </div>
 
-<img src="{{ '/assets/images/Screenshot.png' | relative_url }} style="width: 100%;">
+<img src="{{ '/assets/images/Screenshot.png' | relative_url }}" style="width: 100%;">
