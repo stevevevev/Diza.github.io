@@ -18,36 +18,53 @@
       transition: transform 0.3s ease; 
       z-index: 1000;
       overflow-y: auto;
+      box-sizing: border-box;
     }
     
     .sidebar.collapsed { 
       transform: translateX(-100%); 
     }
     
-    .sidebar a { 
+    .sidebar h3 {
+      margin-top: 60px; 
+      margin-bottom: 20px;
+      padding: 0 10px;
+    }
+    
+    .sidebar a, .sidebar summary { 
       color: white; 
       text-decoration: none; 
       display: block; 
-      margin-bottom: 10px; 
-      padding: 5px 0;
-      transition: color 0.2s;
+      margin-bottom: 5px; 
+      padding: 10px;
+      transition: background-color 0.2s, color 0.2s;
+      border-left: 4px solid transparent; 
+      box-sizing: border-box;
+      cursor: pointer;
+      outline: none;
     }
 
-    .sidebar a:hover {
-      color: #ccc;
+    .sidebar a:hover, .sidebar summary:hover {
+      background-color: rgba(255, 255, 255, 0.05);
     }
     
-    /* Active Page Highlight Protocol */
     .sidebar a.active {
       color: #FFD700;
       font-weight: bold;
-      padding-left: 10px;
-      border-left: 3px solid #FFD700;
+      border-left: 4px solid #FFD700;
       background-color: rgba(255, 255, 255, 0.1);
     }
     
+    .sidebar details {
+      margin-bottom: 5px;
+    }
+
+    .sidebar details div {
+      padding-left: 15px;
+    }
+
     .content { 
-      margin-left: 290px; 
+      margin-left: 250px; 
       padding: 40px; 
       padding-top: 60px; 
       flex-grow: 1; 
@@ -56,7 +73,7 @@
     }
     
     .content.expanded { 
-      margin-left: 40px; 
+      margin-left: 0; 
     }
     
     .toggle-btn {
@@ -78,19 +95,18 @@
 <body>
 
   <button class="toggle-btn" onclick="toggleSidebar()">☰ Menu</button>
-  
 
   <div class="sidebar" id="dossierSidebar">
-    <h3 style="margin-top: 40px;">Internship Journey</h3>
+    <h3>Internship Journey</h3>
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/introduction.html' | relative_url }}">Introduction</a>
     <a href="{{ '/vmgo.html' | relative_url }}">CNU</a>
     <a href="{{ '/co-interns.html' | relative_url }}">Co-Interns</a>
-    <a href="{{ '/participating.html' | relative_url }}"> Participating Schools </a>
+    <a href="{{ '/participating.html' | relative_url }}">Participating Schools</a>
 
     <details {% if page.url contains '/pre-deployment' %}open{% endif %}>
-      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Pre-deployment</summary>
-      <div style="padding-left: 15px;">
+      <summary>Pre-deployment</summary>
+      <div>
         <a href="{{ '/pre-deployment-expectations.html' | relative_url }}">Expectations & Thoughts</a>
         <a href="{{ '/pre-deployment-experience.html' | relative_url }}">Experience</a>
         <a href="{{ '/pre-deployment-insights.html' | relative_url }}">Insights</a>
@@ -98,8 +114,8 @@
     </details>
 
     <details {% if page.url contains '/off-campus' %}open{% endif %}>
-      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">Off-campus</summary>
-      <div style="padding-left: 15px;">
+      <summary>Off-campus</summary>
+      <div>
         <a href="{{ '/off-campus-expectations.html' | relative_url }}">Expectations & Goals</a>
         <a href="{{ '/off-campus-first-day.html' | relative_url }}">First Day</a>
         <a href="{{ '/off-campus-first-class.html' | relative_url }}">First Class</a>
@@ -110,8 +126,8 @@
     </details>
 
     <details {% if page.url contains '/on-campus' %}open{% endif %}>
-      <summary style="cursor: pointer; margin-bottom: 10px; color: white; outline: none;">On-campus</summary>
-      <div style="padding-left: 15px;">
+      <summary>On-campus</summary>
+      <div>
         <a href="{{ '/on-campus-expectations.html' | relative_url }}">Expectations & Goals</a>
         <a href="{{ '/on-campus-journey.html' | relative_url }}">Experiences</a>
         <a href="{{ '/on-campus-insights.html' | relative_url }}">Insights</a>
@@ -130,7 +146,6 @@
       document.getElementById('mainContent').classList.toggle('expanded');
     }
 
-    /* Active Page Evaluation Script */
     document.addEventListener("DOMContentLoaded", function() {
       const currentPath = window.location.pathname;
       const links = document.querySelectorAll('.sidebar a');
