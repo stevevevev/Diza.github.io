@@ -5,7 +5,7 @@ title: Co-Interns
 <img src="assets/images/co-interns/Co-interns-pinning.jpg" alt="The Interns" width="150">
 
 ### Scott Alao
-<img src="assets/images/co-interns/Alao.jpg" alt="Scott" width="150">
+<img src="assets/images/co-interns/Alao.jpg" alt="Scott" width="100%">
 
 ### Cezel Joy Bayon-on
 <img src="assets/images/co-interns/SISIL.jpg" alt="Cezel" width="150">
