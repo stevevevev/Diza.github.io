@@ -36,11 +36,11 @@ That day, I realized that engaging the students will allow their brains to inter
 </div>
 <br>
 
-<div class="carousel-secondary" style="max-width: 600px; position: relative;">
-    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="width: 100%;">
-    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class2.jpg' | relative_url }}" style="width: 100%;display: none;">
-    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class3.jpg' | relative_url }}" style="width: 100%;display: none;">
-    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class4.jpg' | relative_url }}" style="width: 100%;display: none;">
+<div class="carousel-secondary">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class.jpg' | relative_url }}" style="display: block;>
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class2.jpg' | relative_url }}">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class3.jpg' | relative_url }}">
+    <img class="carousel-slide" src="{{ '/assets/images/off-campus/off-campus-class4.jpg' | relative_url }}">
 
   
   <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
