@@ -73,6 +73,7 @@ title: Co-Interns
       <div class="intern-photo"><img src="{{ '/assets/images/co-interns/Alao.jpg' | relative_url }}" alt="Scott Alao"></div>
       <div class="intern-bio">
         <h3>Scott Alao</h3>
+        <p>Scott G. Alao is a 23-year-old undergraduate science major at Cebu Normal University, currently pursuing studies in Science Education. He completed his primary education at Tabunok Central School, junior high school at Kairos Christian Academy, and senior high school as a STEM student at the University of Cebu – Main Campus. His academic interests include science education, AI-driven research, gamification in learning, and sustainable living practices. He has gained experience in conducting scientific research, particularly in projects involving artificial intelligence–assisted learning and gamified educational strategies. Scott aspires to become either a science teacher or farmer, reflecting his commitment to education, sustainability, and community service.</p>
       </div>
     </div>
   </div>
