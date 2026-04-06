@@ -2,7 +2,16 @@
 layout: default
 title: Home
 ---
-<h2>Introduction</h2>
+
+<div class="carousel-primary" style="max-width: 600px; position: relative;">
+  <img class="carousel-slide" src="/assets/images/photo1.jpg" style="width: 100%;">
+  <img class="carousel-slide" src="/assets/images/photo2.jpg" style="width: 100%; display: none;">
+  <img class="carousel-slide" src="/assets/images/photo3.jpg" style="width: 100%; display: none;">
+  
+  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
+  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
+</div>
+
 <p>I never thought I was smart.
 <br>
 <br>
@@ -18,15 +27,6 @@ title: Home
 <p>“Better a fool now and ask, than remain a fool forever.” 
 <br>
 <br>
-<h2>Visual Documentation</h2>
-<div class="carousel" style="max-width: 600px; position: relative;">
-  <img class="carousel-slide" src="/assets/images/photo1.jpg" style="width: 100%;">
-  <img class="carousel-slide" src="/assets/images/photo2.jpg" style="width: 100%; display: none;">
-  <img class="carousel-slide" src="/assets/images/photo3.jpg" style="width: 100%; display: none;">
-  
-  <button onclick="shiftSlide(-1)" style="position: absolute; top: 50%; left: 0;">&#10094;</button>
-  <button onclick="shiftSlide(1)" style="position: absolute; top: 50%; right: 0;">&#10095;</button>
-</div>
 
 <script>
   let index = 1;
